@@ -20,7 +20,6 @@ class Student:
 
 
 s1=Student(56,87)
-
 print(s1.sum(5,6,11))
 print(s1.sum(5,7))
 print(s1.sum(5))

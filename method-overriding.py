@@ -1,11 +1,15 @@
 class A:
+
     def show(self):
-        print("in a show")
+        print("in A show")
 
 class B(A):
-     pass
+     def show(self):
+         super().show()
+         print("in B show")
 
 
-
-a1=B()
+b1=B()
+b1.show()
+a1 = A()
 a1.show()

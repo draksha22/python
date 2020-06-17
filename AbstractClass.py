@@ -18,6 +18,7 @@ class Programmer:
         print("solving bugs")
         com.process()
 
+
 com1 = Laptop()
 com2 = Whiteboard()
 prog1 = Programmer()

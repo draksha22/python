@@ -12,3 +12,4 @@ Zip = zip(names,phone)
 
 for a,b in Zip:
     print(a,b)
+
